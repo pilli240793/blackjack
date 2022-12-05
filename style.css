@@ -1,0 +1,259 @@
+
+.title {
+    font-size: 40px;
+    display: inline-block;    
+    box-sizing: border-box;
+	margin-top:10px;
+    padding: 5px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;   
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 0 0 9px rgb(255 255 2);
+	 -o-text-overflow: clip;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1); 
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+} 
+
+header{
+    color: black;
+    text-align: center;
+    padding: 10px;	
+}
+
+body {
+    margin: 0 0 40px;    
+	overflow: auto;
+    padding: 0px;
+	width: 1350px;	
+	font-family: Arial, Helvetica, sans-serif;  
+	background-image: url('cards/honor_diamond.png');
+}
+
+main{
+	background-color:white;
+	width: 800px;
+	border-style: solid;
+	border-radius: 7px;
+	border-color: black;
+	margin-left: 300px;
+	clear:left;
+	box-shadow: 10px 10px 10px 10px #888888;
+}
+
+.wrapstyle {
+  height:75px;  
+  position: relative;  
+  padding: 3px;
+  padding: 1rem;
+  margin-bottom: -39px;
+  background-color:green;
+}
+
+.controllers{
+    position: relative;
+    width: 350px;
+    color: red;
+    margin: 10px auto;
+}
+
+.controllers a{
+    position: relative;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: black;
+    font-weight: 700;
+    font-family: 'sans-serif';
+    font-size: 2em;
+    display: block;
+    padding: 4px;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 130px;
+    text-align: center;
+    -moz-transition: all .1s ease;
+    transition: all .1s ease;
+}
+
+.controllers a:active {    
+    box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+	-moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+}
+
+#start {
+	margin-top: 30px;
+    float: left;
+}
+
+#dealstart {
+	margin-top: 30px;
+    float: left;
+}
+
+#reset {
+	margin-top: 30px;
+    float: right;
+}
+
+#dealrestart {
+	margin-top: 30px;
+    float: right;
+}
+
+.maincontainer{
+    font: normal 21px/normal 'Merriweather', serif;
+    overflow: hidden;
+    position: relative;
+    color: blue;
+    height: 450px;
+    width: 800px;
+    margin: -26px auto;
+    padding-top: 20px;
+	background-color: green;
+	border-style: none;
+    border-color: none;
+	margin-top: 39px;
+}
+
+{
+    color: green;
+    /*border: 1px solid green;*/
+}
+
+.dealer{
+    color: black;
+    text-align: center;
+	margin-left: 40px;
+}
+
+.dealers_cards, .players_cards{
+    overflow: hidden;
+    margin: auto;
+    display: inline-block;
+    padding: 20px 32px 20px 20px;
+    color: grey;
+    height: 130px;
+
+}
+
+ ul{
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+ li{
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    float: left;
+}
+
+ img{
+    width: 160%;
+    display: inline-block;
+}
+
+.player{
+    margin-top: 0px;   
+    color: black;    
+    text-align: center;
+	margin-right: 70px;
+}
+
+.players_cards{    
+    color: purple;   
+}
+
+.points{
+    position: relative;
+    background-color: green;
+    height: 50px;
+    width: 100px;
+    margin: auto;
+    bottom: 370px;
+    border-radius: 4px;    
+    box-shadow: 0px 9px 25px rgba(0,0,0,.7);
+	-moz-box-shadow: 0px 9px 25px rgba(0,0,0,.7);
+
+}
+
+.points p{
+    padding-top: 5px;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    /*font-family: ;*/
+    font-size: 1.2em;
+}
+
+.mainGame{
+    position: relative;
+    width: 250px;
+    color: red;
+    /*border: 1px solid red*/	
+	position: relative;
+    background-color: black;
+    margin: auto;
+    bottom: 140px;
+    border-radius: 4px;    
+    box-shadow: 0px 9px 25px rgba(0,0,0,.8);
+	-moz-box-shadow: 0px 9px 25px rgba(0,0,0,.8);
+}
+
+.mainGame a{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(0 128 0);
+    font-weight: 700;
+    font-family: 'sans-serif';
+    font-size: 1.2em;
+    display: block;
+    padding: 15px 10px 0px 10px;
+    border-radius: 5px;    
+    margin: 10px auto;
+    width: 50px;
+    height: 35px;
+    text-align: center;
+    -moz-transition: all .1s ease;
+    transition: all .1s ease;
+}
+
+.mainGame a:active {    
+	box-shadow: 0px 3px 0px rgba(219,179,2,1), 0px 3px 6px rgba(0,0,0,.9);
+	-moz-box-shadow: 0px 3px 0px rgba(219,179,2,1), 0px 3px 6px rgba(0,0,0,.9);
+}
+
+#hit {
+	margin-top: -10px;
+    float: left;
+	width: 55px;
+	box-shadow: 0px 9px 25px rgb(0 0 0 / 70%);
+}
+
+#stand {
+	margin-top: -10px;
+    float: right;
+	box-shadow: 0px 9px 25px rgb(0 0 0 / 70%);
+}
+
+footer{
+    /*position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: grey;*/
+}
+
+footer p{
+	height:12px;
+    padding: 10px 10px 10px 10px;
+}
